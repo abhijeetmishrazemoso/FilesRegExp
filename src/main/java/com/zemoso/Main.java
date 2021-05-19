@@ -31,7 +31,8 @@ public class Main {
             File tempFile = iterator.next();
             Pattern p = Pattern.compile(regex);
             String allLines = getAllLines(tempFile);
-            Matcher m = p.matcher(allLines ==null?"":allLines);
+            if(allLines==null)continue;
+            Matcher m = p.matcher(allLines);
             while(m.find()) {
                 String output = String.format("Found '%s' at %d, %d in file:%s",m.group(),m.start(),m.end(),tempFile.getName());
                 System.out.println(output);
