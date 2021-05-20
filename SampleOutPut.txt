@@ -1,4 +1,4 @@
-/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -javaagent:/snap/intellij-idea-community/299/lib/idea_rt.jar=44855:/snap/intellij-idea-community/299/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar:/home/abhim/IdeaProjects/FilesRegExp/target/classes:/home/abhim/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar com.zemoso.Main
+/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -javaagent:/snap/intellij-idea-community/299/lib/idea_rt.jar=43413:/snap/intellij-idea-community/299/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar:/home/abhim/IdeaProjects/FilesRegExp/target/classes:/home/abhim/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar com.zemoso.Main
 Enter the Regex:Type 'exit' to Exit:
 [a-z&&[^m-t]]{5}
 Found 'build' at 0, 5 in file:build.log
@@ -13,5 +13,36 @@ Found 'edici' at 1, 6 in file:Medicine.java
 Found 'ecial' at 2, 7 in file:SpecializedDoctor.java
 Found 'uickb' at 1, 6 in file:quickbrown.txt
 Found 'defba' at 8, 13 in file:home-0e1defba.log
+Enter Another regex:type 'exit' to exit:
+[a-z]\d$
+Enter Another regex:type 'exit' to exit:
+[a-d]{2}
+Found 'ad' at 4, 6 in file:threadDump-20210519-094524.txt
+Found 'ad' at 4, 6 in file:threadDump-20210519-094529.txt
+Found 'ad' at 4, 6 in file:threadDump-20210519-094519.txt
+Found 'ad' at 4, 6 in file:threadDump-20210519-094534.txt
+Found 'ad' at 4, 6 in file:threadDump-20210520-100737.txt
+Found 'ad' at 4, 6 in file:threadDump-20210517-102404.txt
+Found 'ad' at 4, 6 in file:threadDump-20210517-101753.txt
+Found 'ad' at 4, 6 in file:threadDump-20210517-101759.txt
+Found 'ad' at 4, 6 in file:threadDump-20210517-102355.txt
+Found 'ad' at 4, 6 in file:threadDump-20210518-100912.txt
+Found 'ad' at 4, 6 in file:threadDump-20210518-100906.txt
+Found 'ad' at 4, 6 in file:threadDump-20210518-100859.txt
+Found 'ad' at 4, 6 in file:threadDump-20210518-100924.txt
+Found 'ad' at 4, 6 in file:threadDump-20210518-100919.txt
+Found 'ad' at 4, 6 in file:threadDump-20210518-100854.txt
+Found 'ad' at 4, 6 in file:threadDump-20210518-100935.txt
+Found 'ad' at 4, 6 in file:threadDump-20210518-100930.txt
+Found 'ad' at 4, 6 in file:threadDump-20210519-161548.txt
+Found 'dd' at 9, 11 in file:trash:-57ddd44f.log
+Found 'ad' at 13, 15 in file:SecurityPreloadState.txt
+Enter Another regex:type 'exit' to exit:
+[a-g]{6}$
+Enter Another regex:type 'exit' to exit:
+[a-g]{4}
+Found 'defb' at 8, 12 in file:home-0e1defba.log
+Enter Another regex:type 'exit' to exit:
+exit
 
 Process finished with exit code 0
