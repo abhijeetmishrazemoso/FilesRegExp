@@ -1,0 +1,17 @@
+/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -javaagent:/snap/intellij-idea-community/299/lib/idea_rt.jar=44855:/snap/intellij-idea-community/299/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar:/home/abhim/IdeaProjects/FilesRegExp/target/classes:/home/abhim/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar com.zemoso.Main
+Enter the Regex:Type 'exit' to Exit:
+[a-z&&[^m-t]]{5}
+Found 'build' at 0, 5 in file:build.log
+Found 'hield' at 5, 10 in file:Covishield.java
+Found 'egula' at 1, 6 in file:RegularDuties.java
+Found 'vaila' at 1, 6 in file:Available.java
+Found 'uffic' at 3, 8 in file:InsufficientQuantityException.java
+Found 'edici' at 1, 6 in file:Medicine.java
+Found 'hield' at 5, 10 in file:Covishield.java
+Found 'uffic' at 3, 8 in file:InsufficientQuantityException.java
+Found 'edici' at 1, 6 in file:Medicine.java
+Found 'ecial' at 2, 7 in file:SpecializedDoctor.java
+Found 'uickb' at 1, 6 in file:quickbrown.txt
+Found 'defba' at 8, 13 in file:home-0e1defba.log
+
+Process finished with exit code 0
